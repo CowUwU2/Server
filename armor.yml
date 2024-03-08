@@ -1,0 +1,2610 @@
+# MODIFIED VANILLA ARMOR
+LEATHER_HELEMET:
+  base:
+    material: LEATHER_HELMET
+    name: Lether Helmet
+    tier: D
+    defense: 5.0
+LEATHER_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: Leather Chestplate
+    tier: D
+    defense: 15.0
+LEATHER_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: Leather Leggings
+    tier: D
+    defense: 10.0
+LEATHER_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: Leather Boots
+    tier: D
+    defense: 5.0
+
+IRON_HELMET:
+  base:
+    material: IRON_HELMET
+    name: Iron Helmet
+    tier: D
+    defense: 10.0
+    max-health: 5.0
+IRON_CHESTPLATE:
+  base:
+    material: IRON_CHESTPLATE
+    name: Iron Chestplate
+    tier: D
+    defense: 30.0
+    max-health: 5.0
+IRON_LEGGINGS:
+  base:
+    material: IRON_LEGGINGS
+    name: Iron Leggings
+    tier: D
+    defense: 25.0
+    max-health: 5.0
+IRON_BOOTS:
+  base:
+    material: IRON_BOOTS
+    name: Iron Boots
+    tier: D
+    defense: 15.0
+    movement-speed: 0.01
+    max-health: 5.0
+
+GOLDEN_HELMET:
+  base:
+    material: GOLDEN_HELMET
+    name: Golden Helmet
+    tier: D
+    defense: 10.0
+GOLDEN_CHESTPLATE:
+  base:
+    material: GOLDEN_CHESTPLATE
+    name: Golden Chestplate
+    tier: D
+    defense: 25.0
+GOLDEN_LEGGINGS:
+  base:
+    material: GOLDEN_LEGGINGS
+    name: Golden Leggings
+    tier: D
+    defense: 15.0
+GOLDEN_BOOTS:
+  base:
+    material: GOLDEN_BOOTS
+    name: Golden Boots
+    tier: D
+    defense: 5.0
+
+DIAMOND_HELMET:
+  base:
+    material: DIAMOND_HELMET
+    name: <#77DD77>Diamond Helmet
+    tier: C
+    defense: 15.0
+    critical-strike-power: 5.0
+    max-health: 5.0
+DIAMOND_CHESTPLATE:
+  base:
+    material: DIAMOND_CHESTPLATE
+    name: <#77DD77>Diamond Chestplate
+    tier: C
+    defense: 40.0
+    critical-strike-chance: 2.5
+    critical-strike-power: 5.0
+    max-health: 10.0
+DIAMOND_LEGGINGS:
+  base:
+    material: DIAMOND_LEGGINGS
+    name: <#77DD77>Diamond Leggings
+    tier: C
+    defense: 30.0
+    critical-strike-chance: 2.0
+    critical-strike-power: 2.5
+    max-health: 10.0
+DIAMOND_BOOTS:
+  base:
+    material: DIAMOND_BOOTS
+    name: <#77DD77>Diamond Boots
+    tier: C
+    defense: 15.0
+    critical-strike-power: 2.5
+    max-health: 5.0
+    movement-speed: 0.01
+
+NETHERITE_HELMET:
+  base:
+    material: NETHERITE_HELMET
+    name: <#049cdc>Netherite Helmet
+    tier: B
+    defense: 20.0
+    critical-strike-chance: 2.5
+    critical-strike-power: 5.0
+    max-health: 15.0
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR DIAMOND_HELMET 1.0..|v NETHERITE_INGOT - 1.0..
+          enchantments: MAXIMUM
+NETHERITE_CHESTPLATE:
+  base:
+    material: NETHERITE_CHESTPLATE
+    name: <#049cdc>Netherite Chestplate
+    tier: B
+    defense: 50.0
+    critical-strike-chance: 5.0
+    critical-strike-power: 7.5
+    max-health: 15.0
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR DIAMOND_CHESTPLATE 1.0..|v NETHERITE_INGOT - 1.0..
+NETHERITE_LEGGINGS:
+  base:
+    material: NETHERITE_LEGGINGS
+    name: <#049cdc>Netherite Leggings
+    tier: B
+    defense: 35.0
+    critical-strike-chance: 5.0
+    critical-strike-power: 5.0
+    max-health: 15.0
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR DIAMOND_LEGGINGS 1.0..|v NETHERITE_INGOT - 1.0..
+NETHERITE_BOOTS:
+  base:
+    material: NETHERITE_BOOTS
+    name: <#049cdc>Netherite Boots
+    tier: B
+    defense: 20.0
+    critical-strike-chance: 5.0
+    critical-strike-power: 5.0
+    max-health: 15.0
+    movement-speed: 0.02
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR DIAMOND_BOOTS 1.0..|v NETHERITE_INGOT - 1.0..
+
+# CUSTOM ARMOR
+HELLFIRE_HELMET:
+  base:
+    material: PLAYER_HEAD
+    name: <#7a09fa>Hellfire Helmet
+    tier: A
+    disable-interaction: true
+    critical-strike-chance: 7.5
+    critical-strike-power: 15.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzc0ZjY1ZjliOTk1OGE2MzkyYzhiNjMzMjRkNzZlODBkMmI1MDljMTk4NWEwMDIzMmFlY2NlNDA5NTg1YWUyYSJ9fX0=
+      uuid: 49c9f9e4-55ee-4304-b133-2ffa77612fb3
+    lore:
+    - '&fｫ Firelord &8(Tất cả trang phục)'
+    - '&7Gây &6+20%&7 sát thương cho tất cả'
+    - '&7kẻ địch đang cháy.'
+    set: Hellfire
+    sounds:
+      on-craft:
+        sound: BLOCK_SMITHING_TABLE_USE
+        volume: 1.0
+        pitch: 1.0
+    crafting:
+      smithing:
+        '1':
+          input: m armor netherite_helmet 1.0..|m material IGNETTO_ALLOY 1.0..
+          amount: 1
+    defense: 25.0
+    max-health: 20.0
+HELLFIRE_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: <#7a09fa>Hellfire Chestplate
+    tier: A
+    critical-strike-chance: 12.5
+    critical-strike-power: 35.0
+    lore:
+    - '&fｫ Firelord &8(Tất cả trang phục)'
+    - '&7Gây &6+20%&7 sát thương cho tất cả'
+    - '&7kẻ địch đang cháy.'
+    set: Hellfire
+    weapon-damage: 5.0
+    max-health: 20.0
+    defense: 55.0
+    hide-dye: true
+    dye-color: 233 96 0
+    crafting:
+      smithing:
+        '1':
+          input: m armor netherite_chestplate 1.0..|m material IGNETTO_ALLOY 1.0..
+          amount: 1
+HELLFIRE_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: <#7a09fa>Hellfire Leggings
+    tier: A
+    critical-strike-chance: 7.5
+    critical-strike-power: 20.0
+    lore:
+    - '&fｫ Firelord &8(Tất cả trang phục)'
+    - '&7Gây &6+20%&7 sát thương cho tất cả'
+    - '&7kẻ địch đang cháy.'
+    set: Hellfire
+    defense: 40.0
+    max-health: 20.0
+    hide-dye: true
+    dye-color: 255 170 1
+    crafting:
+      smithing:
+        '1':
+          input: m armor netherite_leggings 1.0..|m material IGNETTO_ALLOY 1.0..
+          amount: 1
+HELLFIRE_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: <#7a09fa>Hellfire Boots
+    tier: A
+    critical-strike-chance: 5.0
+    critical-strike-power: 12.5
+    lore:
+    - '&fｫ Firelord &8(Tất cả trang phục)'
+    - '&7Gây &6+20%&7 sát thương cho tất cả'
+    - '&7kẻ địch đang cháy.'
+    set: Hellfire
+    movement-speed: 0.03
+    defense: 25.0
+    max-health: 20.0
+    hide-dye: true
+    dye-color: 255 159 0
+    crafting:
+      smithing:
+        '1':
+          input: m armor netherite_boots 1.0..|m material IGNETTO_ALLOY 1.0..
+          amount: 1
+
+WARDEN_HELMET:
+  base:
+    material: PLAYER_HEAD
+    name: <#7a09fa>Warden Helmet
+    tier: A
+    disable-interaction: true
+    critical-strike-chance: 7.5
+    critical-strike-power: 10.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWNhZmU4NDhmZDc1NWQ5OThhMDZhNTgzMjE5MTIyNDRjZjc2ZWVmMWNlNzhhNTEyMjhmZGQxMDIwYWI3M2E2OCJ9fX0=
+      uuid: 52270001-ed05-4261-9682-1129a4fbae8d
+    lore:
+    - '&fｪ Phù Hộ của Warden &8(Tất cả trang phục)'
+    - '&7Mỗi &c20 giây&7, bạn tạo ra một vùng'
+    - '&7sóng ánh sáng điều trị chính bạn và các'
+    - '&7đồng minh xung quanh cho &c10❤&7.'
+    crafting:
+      smithing:
+        '1':
+          input: m armor netherite_helmet 1.0..|m material warden_heart 1.0..
+          amount: 1
+    defense: 40.0
+    max-health: 30.0
+    damage-reduction: 1.0
+    unstackable: true
+    knockback-resistance: 0.15
+    set: Warden
+WARDEN_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: <#7a09fa>Warden Chestplate
+    tier: A
+    critical-strike-chance: 10.0
+    critical-strike-power: 22.5
+    lore:
+    - '&fｪ Phù Hộ của Warden &8(Tất cả trang phục)'
+    - '&7Mỗi &c20 giây&7, bạn tạo ra một vùng'
+    - '&7sóng ánh sáng điều trị chính bạn và các'
+    - '&7đồng minh xung quanh cho &c10❤&7.'
+    defense: 70.0
+    max-health: 40.0
+    damage-reduction: 2.0
+    unstackable: true
+    knockback-resistance: 0.15
+    hide-dye: true
+    dye-color: 24 42 65
+    set: Warden
+    crafting:
+      smithing:
+        '1':
+          input: m armor netherite_chestplate 1.0..|m material warden_heart 1.0..
+          amount: 1
+WARDEN_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: <#7a09fa>Warden Leggings
+    tier: A
+    critical-strike-chance: 7.5
+    critical-strike-power: 12.5
+    lore:
+    - '&fｪ Phù Hộ của Warden &8(Tất cả trang phục)'
+    - '&7Mỗi &c20 giây&7, bạn tạo ra một vùng'
+    - '&7sóng ánh sáng điều trị chính bạn và các'
+    - '&7đồng minh xung quanh cho &c10❤&7.'
+    defense: 55.0
+    max-health: 35.0
+    damage-reduction: 1.0
+    unstackable: true
+    knockback-resistance: 0.15
+    hide-dye: true
+    dye-color: 13 72 92
+    set: Warden
+    crafting:
+      smithing:
+        '1':
+          input: m armor netherite_leggings 1.0..|m material warden_heart 1.0..
+          amount: 1
+WARDEN_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: <#7a09fa>Warden Boots
+    tier: A
+    critical-strike-chance: 5.0
+    critical-strike-power: 7.5
+    lore:
+    - '&fｪ Phù Hộ của Warden &8(Tất cả trang phục)'
+    - '&7Mỗi &c20 giây&7, bạn tạo ra một vùng'
+    - '&7sóng ánh sáng điều trị chính bạn và các'
+    - '&7đồng minh xung quanh cho &c10❤&7.'
+    defense: 40.0
+    max-health: 30.0
+    damage-reduction: 1.0
+    unstackable: true
+    durability-bar: true
+    knockback-resistance: 0.15
+    hide-dye: true
+    dye-color: 49 119 114
+    movement-speed: 0.03
+    set: Warden
+    crafting:
+      smithing:
+        '1':
+          input: m armor netherite_boots 1.0..|m material warden_heart 1.0..
+          amount: 1
+
+APOLLO_HELMET:
+  base:
+    material: PLAYER_HEAD
+    name: <#7a09fa>Apollo Helmet
+    tier: A
+    disable-interaction: true
+    critical-strike-chance: 5.0
+    critical-strike-power: 10.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzRhYzVjNTA5MjM3Mzc3NTNlYThiNjMwYTQyZjg5ZjVkOThjMTcyNDQ4MmJjM2ZmYzE0ZjllZDFmYmZlZWEifX19
+      uuid: f14f97c3-926a-4b98-ac1c-946507593452
+    lore:
+    - '&fｭ Đuổi Xa &8(Tất cả trang phục)'
+    - '&7Bị tấn công kích hoạt'
+    - '&7một vụ nổ thánh, đẩy'
+    - '&7kẻ địch gần xa.'
+    - '&8Thời gian chờ:&310s'
+    set: Apollo
+    defense: 15.0
+    max-health: 15.0
+    projectile-damage: 7.5
+    crafting:
+      smithing:
+        '1':
+          input: m armor NETHERITE_HELMET 1.0..|m MATERIAL DIVINE_GEODE 1.0..
+APOLLO_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: <#7a09fa>Apollo Chestplate
+    tier: A
+    critical-strike-chance: 10.0
+    critical-strike-power: 20.0
+    lore:
+    - '&fｭ Đuổi Xa &8(Tất cả trang phục)'
+    - '&7Bị tấn công kích hoạt'
+    - '&7một vụ nổ thánh, đẩy'
+    - '&7kẻ địch gần xa.'
+    - '&8Thời gian chờ:&310s'
+    defense: 45.0
+    max-health: 25.0
+    projectile-damage: 10
+    unstackable: true
+    durability-bar: true
+    hide-dye: true
+    dye-color: 252 252 252
+    set: Apollo
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR NETHERITE_CHESTPLATE 1.0..|m MATERIAL DIVINE_GEODE 1.0..
+APOLLO_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: <#7a09fa>Apollo Leggings
+    tier: A
+    critical-strike-chance: 7.5
+    critical-strike-power: 10.0
+    lore:
+    - '&fｭ Đuổi Xa &8(Tất cả trang phục)'
+    - '&7Bị tấn công kích hoạt'
+    - '&7một vụ nổ thánh, đẩy'
+    - '&7kẻ địch gần xa.'
+    - '&8Thời gian chờ:&310s'
+    defense: 35.0
+    max-health: 20.0
+    projectile-damage: 10
+    unstackable: true
+    durability-bar: true
+    hide-dye: true
+    dye-color: 126 209 195
+    set: Apollo
+    crafting:
+      smithing:
+        '1':
+          input: m armor netherite_leggings 1.0..|m MATERIAL DIVINE_GEODE 1.0..
+APOLLO_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: <#7a09fa>Apollo Boots
+    tier: A
+    critical-strike-chance: 5.0
+    critical-strike-power: 5.0
+    lore:
+    - '&fｭ Đuổi Xa &8(Tất cả trang phục)'
+    - '&7Bị tấn công kích hoạt'
+    - '&7một vụ nổ thánh, đẩy'
+    - '&7kẻ địch gần xa.'
+    - '&8Thời gian chờ:&310s'
+    defense: 15.0
+    max-health: 10.0
+    projectile-damage: 7.5
+    unstackable: true
+    durability-bar: true
+    hide-dye: true
+    movement-speed: 0.04
+    dye-color: 245 171 5
+    set: Apollo
+    crafting:
+      smithing:
+        '1':
+          input: m armor netherite_boots 1.0..|m MATERIAL DIVINE_GEODE 1.0..
+
+APOCALYPSE_HELMET:
+  base:
+    material: PLAYER_HEAD
+    name: <#fca414>Apocalypse Helmet
+    tier: S
+    disable-interaction: true
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTVjMmVmYTQyMTgzMDAwODA2MjkwNjI4NGYwMzNmOTA1ZGVkNGVhMmM3ZWQ5YjZlMDk3YWMxZGUyNDI3ZTcwOCJ9fX0=
+      uuid: f14f97c3-926a-4b98-ac1c-946507593452
+    lore:
+    - '&fｦ Kẻ Phá Hoại &8(Tất cả trang phục)'
+    - '&7Giết kẻ địch sẽ nhận được linh hồn'
+    - '&7của chúng, kéo dài &c3s&7 trước khi'
+    - '&7nổ tung, gây &c30&7 sát thương'
+    - '&7cho tất cả kẻ địch xung quanh,'
+    - '&7đồng thời áp dụng &b❆ Slow I&7 cho'
+    - '&7tất cả mục tiêu trúng.'
+    - '&8Thời gian chờ:&3 3s'
+    - ''
+    - '&8Có thể nâng cấp thành một'
+    - '&8bộ đặc biệt khác.'
+    set: Apocalypse
+    defense: 45.0
+    max-health: 40.0
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    crafting:
+      shaped: {}
+APOCALYPSE_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: <#fca414>Apocalypse Chestplate
+    tier: S
+    lore:
+    - '&fｦ Kẻ Phá Hoại &8(Tất cả trang phục)'
+    - '&7Giết kẻ địch sẽ nhận được linh hồn'
+    - '&7của chúng, kéo dài &c3s&7 trước khi'
+    - '&7nổ tung, gây &c30&7 sát thương'
+    - '&7cho tất cả kẻ địch xung quanh,'
+    - '&7đồng thời áp dụng &b❆ Slow I&7 cho'
+    - '&7tất cả mục tiêu trúng.'
+    - '&8Thời gian chờ:&3 3s'
+    - ''
+    - '&8Có thể nâng cấp thành một'
+    - '&8bộ đặc biệt khác.'
+    defense: 95.0
+    max-health: 70.0
+    unstackable: true
+    durability-bar: true
+    hide-dye: true
+    dye-color: 0 0 0
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    set: Apocalypse
+APOCALYPSE_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: <#fca414>Apocalypse Leggings
+    tier: S
+    lore:
+    - '&fｦ Kẻ Phá Hoại &8(Tất cả trang phục)'
+    - '&7Giết kẻ địch sẽ nhận được linh hồn'
+    - '&7của chúng, kéo dài &c3s&7 trước khi'
+    - '&7nổ tung, gây &c30&7 sát thương'
+    - '&7cho tất cả kẻ địch xung quanh,'
+    - '&7đồng thời áp dụng &b❆ Slow I&7 cho'
+    - '&7tất cả mục tiêu trúng.'
+    - '&8Thời gian chờ:&3 3s'
+    - ''
+    - '&8Có thể nâng cấp thành một'
+    - '&8bộ đặc biệt khác.'
+    defense: 70.0
+    max-health: 55.0
+    unstackable: true
+    durability-bar: true
+    hide-dye: true
+    dye-color: 10 10 9
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    set: Apocalypse
+APOCALYPSE_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: <#fca414>Apocalypse Boots
+    tier: S
+    lore:
+    - '&fｦ Kẻ Phá Hoại &8(Tất cả trang phục)'
+    - '&7Giết kẻ địch sẽ nhận được linh hồn'
+    - '&7của chúng, kéo dài &c3s&7 trước khi'
+    - '&7nổ tung, gây &c30&7 sát thương'
+    - '&7cho tất cả kẻ địch xung quanh,'
+    - '&7đồng thời áp dụng &b❆ Slow I&7 cho'
+    - '&7tất cả mục tiêu trúng.'
+    - '&8Thời gian chờ:&3 3s'
+    - ''
+    - '&8Có thể nâng cấp thành một'
+    - '&8bộ đặc biệt khác.'
+    defense: 55.0
+    max-health: 50.0
+    unstackable: true
+    durability-bar: true
+    hide-dye: true
+    movement-speed: 0.04
+    dye-color: 0 0 0
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    set: Apocalypse
+
+QUINERUS_BATTLEHELM:
+  base:
+    material: PLAYER_HEAD
+    name: <#fca414>Quinerus Battlehelm
+    tier: S
+    disable-interaction: true
+    critical-strike-chance: 12.5
+    critical-strike-power: 25.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTVmMzE3ZmFhOGRjZjEzYTJmYzE4ZWEwYmYwYTA3MzZhNGZmOTVjMjg1MDFiYjFjZmE0MzAyNTQyMjc4ZjhhIn19fQ==
+      uuid: f14f97c3-926a-4b98-ac1c-946507593452
+    lore:
+    - '&fｦ Doomslayer &8(Bộ đồ đầy đủ)'
+    - '&7Giết một kẻ thù sẽ nhổ ra linh hồn của nó'
+    - '&7làm lâu lắm &c3s&7 trước khi nó'
+    - '&7nổ tung, gây &c30&7 sát thương'
+    - '&7cho tất cả kẻ địch xung quanh, đồng thời'
+    - '&7áp dụng &b❆ Chậm I&7 cho tất cả'
+    - '&7mục tiêu bị đánh.'
+    - '&8Thời gian chờ:&3 3s'
+    - ''
+    - '&fｧ Giao dịch &8(Bộ đồ đầy đủ)'
+    - '&7Tham gia vào chiến đấu tăng tất cả'
+    - '&7các chỉ số tấn công của bạn lên &c'
+    - '&c10%&7, nhưng bạn cũng mất mọi'
+    - '&7chỉ số phòng thủ đi &c10%&7.'
+    - '&8Kích hoạt kéo dài trong 5s.'
+    set: Quinerus
+    defense: 35.0
+    max-health: 30.0
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_HELMET 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR CAELETUS_SALLET 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR HEXIM_JUDENHAT 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR MORTOS_ARMET 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+    gem-sockets:
+    - Universal
+QUINERUS_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: <#fca414>Quinerus Chestplate
+    tier: S
+    critical-strike-chance: 20.0
+    critical-strike-power: 45.0
+    lore:
+    - '&fｦ Doomslayer &8(Bộ đồ đầy đủ)'
+    - '&7Giết một kẻ thù sẽ nhổ ra linh hồn của nó'
+    - '&7làm lâu lắm &c3s&7 trước khi nó'
+    - '&7nổ tung, gây &c30&7 sát thương'
+    - '&7cho tất cả kẻ địch xung quanh, đồng thời'
+    - '&7áp dụng &b❆ Chậm I&7 cho tất cả'
+    - '&7mục tiêu bị đánh.'
+    - '&8Thời gian chờ:&3 3s'
+    - ''
+    - '&fｧ Giao dịch &8(Bộ đồ đầy đủ)'
+    - '&7Tham gia vào chiến đấu tăng tất cả'
+    - '&7các chỉ số tấn công của bạn lên &c'
+    - '&c10%&7, nhưng bạn cũng mất mọi'
+    - '&7chỉ số phòng thủ đi &c10%&7.'
+    - '&8Kích hoạt kéo dài trong 5s.'
+    defense: 70.0
+    max-health: 35.0
+    unstackable: true
+    durability-bar: true
+    hide-dye: true
+    dye-color: 52 25 25
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    set: Quinerus
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_CHESTPLATE 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR CAELETUS_CHESTPLATE 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR HEXIM_CHESTPLATE 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR MORTOS_CHESTPLATE 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+    gem-sockets:
+    - Universal
+    - '&9Precision'
+QUINERUS_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: <#fca414>Quinerus Leggings
+    tier: S
+    critical-strike-chance: 12.5
+    critical-strike-power: 32.5
+    lore:
+    - '&fｦ Doomslayer &8(Bộ đồ đầy đủ)'
+    - '&7Giết một kẻ thù sẽ nhổ ra linh hồn của nó'
+    - '&7làm lâu lắm &c3s&7 trước khi nó'
+    - '&7nổ tung, gây &c30&7 sát thương'
+    - '&7cho tất cả kẻ địch xung quanh, đồng thời'
+    - '&7áp dụng &b❆ Chậm I&7 cho tất cả'
+    - '&7mục tiêu bị đánh.'
+    - '&8Thời gian chờ:&3 3s'
+    - ''
+    - '&fｧ Giao dịch &8(Bộ đồ đầy đủ)'
+    - '&7Tham gia vào chiến đấu tăng tất cả'
+    - '&7các chỉ số tấn công của bạn lên &c'
+    - '&c10%&7, nhưng bạn cũng mất mọi'
+    - '&7chỉ số phòng thủ đi &c10%&7.'
+    - '&8Kích hoạt kéo dài trong 5s.'
+    defense: 55.0
+    max-health: 35.0
+    unstackable: true
+    durability-bar: true
+    hide-dye: true
+    dye-color: 10 10 9
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    set: Quinerus
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_LEGGINGS 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR CAELETUS_LEGGINGS 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR HEXIM_LEGGINGS 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR MORTOS_LEGGINGS 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+    gem-sockets:
+    - Universal
+    - '&9Precision'
+QUINERUS_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: <#fca414>Quinerus Boots
+    tier: S
+    critical-strike-chance: 10.0
+    critical-strike-power: 20.0
+    lore:
+    - '&fｦ Doomslayer &8(Bộ đồ đầy đủ)'
+    - '&7Giết một kẻ thù sẽ nhổ ra linh hồn của nó'
+    - '&7làm lâu lắm &c3s&7 trước khi nó'
+    - '&7nổ tung, gây &c30&7 sát thương'
+    - '&7cho tất cả kẻ địch xung quanh, đồng thời'
+    - '&7áp dụng &b❆ Chậm I&7 cho tất cả'
+    - '&7mục tiêu bị đánh.'
+    - '&8Thời gian chờ:&3 3s'
+    - ''
+    - '&fｧ Giao dịch &8(Bộ đồ đầy đủ)'
+    - '&7Tham gia vào chiến đấu tăng tất cả'
+    - '&7các chỉ số tấn công của bạn lên &c'
+    - '&c10%&7, nhưng bạn cũng mất mọi'
+    - '&7chỉ số phòng thủ đi &c10%&7.'
+    - '&8Kích hoạt kéo dài trong 5s.'
+    defense: 45.0
+    max-health: 40.0
+    unstackable: true
+    hide-dye: true
+    movement-speed: 0.04
+    dye-color: 10 10 9
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    set: Quinerus
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_BOOTS 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR CAELETUS_BOOTS 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR HEXIM_BOOTS 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR MORTOS_BOOTS 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+    gem-sockets:
+    - Universal
+
+CAELETUS_SALLET:
+  base:
+    material: PLAYER_HEAD
+    name: <#fca414>Caeletus Sallet
+    tier: S
+    disable-interaction: true
+    critical-strike-power: 10.0
+    projectile-damage: 10
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc1NDBiOTM5ZThlOTcyNmNkMjc3NDBkNDQ4ZDExOGNjYTFmZGM1MDlmNTFjNTg4NzZjODU0ODBiMzAyMTQzZSJ9fX0=
+      uuid: f14f97c3-926a-4b98-ac1c-946507593452
+    lore:
+    - '&fｦ Sát thủ Doom &8(Bộ đồ đầy đủ)'
+    - '&7Giết kẻ địch sẽ lấy linh hồn của nó'
+    - '&7rồi ở đó trong &c3 giây&7 trước khi nổ,'
+    - '&7gây &c30&7 sát thương cho'
+    - '&7tất cả kẻ địch xung quanh, đồng thời'
+    - '&7áp dụng &b❆ Chậm I&7 cho tất cả'
+    - '&7mục tiêu bị trúng.'
+    - '&8Hồi chiêu:&3 3 giây'
+    - ''
+    - '&fｨ Di chuyển nhanh &8(Bộ đồ đầy đủ)'
+    - '&7Khi lén bước, mũi tên rơi'
+    - '&7xuống mặt đất sẽ &clập tức di chuyển'
+    - '&7bạn đến vị trí đó.'
+    - '&8Hồi chiêu:&310 giây'
+    defense: 30.0
+    max-health: 30.0
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    set: Caeletus
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_HELMET 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR QUINERUS_BATTLEHELM 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR HEXIM_JUDENHAT 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR MORTOS_ARMET 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+    gem-sockets:
+    - Universal
+CAELETUS_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: <#fca414>Caeletus Chestplate
+    tier: S
+    critical-strike-chance: 15.0
+    critical-strike-power: 35.0
+    projectile-damage: 15
+    lore:
+    - '&fｦ Sát thủ Doom &8(Bộ đồ đầy đủ)'
+    - '&7Giết kẻ địch sẽ lấy linh hồn của nó'
+    - '&7rồi ở đó trong &c3 giây&7 trước khi nổ,'
+    - '&7gây &c30&7 sát thương cho'
+    - '&7tất cả kẻ địch xung quanh, đồng thời'
+    - '&7áp dụng &b❆ Chậm I&7 cho tất cả'
+    - '&7mục tiêu bị trúng.'
+    - '&8Hồi chiêu:&3 3 giây'
+    - ''
+    - '&fｨ Di chuyển nhanh &8(Bộ đồ đầy đủ)'
+    - '&7Khi lén bước, mũi tên rơi'
+    - '&7xuống mặt đất sẽ &clập tức di chuyển'
+    - '&7bạn đến vị trí đó.'
+    - '&8Hồi chiêu:&310 giây'
+    defense: 55.0
+    max-health: 35.0
+    unstackable: true
+    durability-bar: true
+    hide-dye: true
+    dye-color: 253 216 144
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    set: Caeletus
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_CHESTPLATE 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR QUINERUS_CHESTPLATE 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR HEXIM_CHESTPLATE 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR MORTOS_CHESTPLATE 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+    gem-sockets:
+    - Universal
+    - '&9Precision'
+CAELETUS_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: <#fca414>Caeletus Leggings
+    tier: S
+    critical-strike-chance: 10.0
+    critical-strike-power: 15.0
+    projectile-damage: 15
+    lore:
+    - '&fｦ Sát thủ Doom &8(Bộ đồ đầy đủ)'
+    - '&7Giết kẻ địch sẽ lấy linh hồn của nó'
+    - '&7rồi ở đó trong &c3 giây&7 trước khi nổ,'
+    - '&7gây &c30&7 sát thương cho'
+    - '&7tất cả kẻ địch xung quanh, đồng thời'
+    - '&7áp dụng &b❆ Chậm I&7 cho tất cả'
+    - '&7mục tiêu bị trúng.'
+    - '&8Hồi chiêu:&3 3 giây'
+    - ''
+    - '&fｨ Di chuyển nhanh &8(Bộ đồ đầy đủ)'
+    - '&7Khi lén bước, mũi tên rơi'
+    - '&7xuống mặt đất sẽ &clập tức di chuyển'
+    - '&7bạn đến vị trí đó.'
+    - '&8Hồi chiêu:&310 giây'
+    defense: 45.0
+    max-health: 30.0
+    unstackable: true
+    durability-bar: true
+    hide-dye: true
+    dye-color: 253 216 144
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    set: Caeletus
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_LEGGINGS 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR QUINERUS_LEGGINGS 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR HEXIM_LEGGINGS 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR MORTOS_LEGGINGS 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+    gem-sockets:
+    - Universal
+    - '&dSorcery'
+CAELETUS_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: <#fca414>Caeletus Boots
+    tier: S
+    critical-strike-chance: 10.0
+    critical-strike-power: 10.0
+    projectile-damage: 10
+    lore:
+    - '&fｦ Sát thủ Doom &8(Bộ đồ đầy đủ)'
+    - '&7Giết kẻ địch sẽ lấy linh hồn của nó'
+    - '&7rồi ở đó trong &c3 giây&7 trước khi nổ,'
+    - '&7gây &c30&7 sát thương cho'
+    - '&7tất cả kẻ địch xung quanh, đồng thời'
+    - '&7áp dụng &b❆ Chậm I&7 cho tất cả'
+    - '&7mục tiêu bị trúng.'
+    - '&8Hồi chiêu:&3 3 giây'
+    - ''
+    - '&fｨ Di chuyển nhanh &8(Bộ đồ đầy đủ)'
+    - '&7Khi lén bước, mũi tên rơi'
+    - '&7xuống mặt đất sẽ &clập tức di chuyển'
+    - '&7bạn đến vị trí đó.'
+    - '&8Hồi chiêu:&310 giây'
+    defense: 30.0
+    max-health: 20.0
+    unstackable: true
+    hide-dye: true
+    movement-speed: 0.06
+    dye-color: 110 85 125
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    set: Caeletus
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_BOOTS 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR QUINERUS_BOOTS 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR HEXIM_BOOTS 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR MORTOS_BOOTS 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+    gem-sockets:
+    - Universal
+
+MORTOS_ARMET:
+  base:
+    material: PLAYER_HEAD
+    name: <#fca414>Mortos Armet
+    tier: S
+    disable-interaction: true
+    critical-strike-chance: 10.0
+    critical-strike-power: 25.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNThhYzhkMTExYzI2OWJiN2VmYzZiNTY2MGI2ZDM3OWQ4MGQxZThhZDNmOTNjNGEwZWJhNWNjZWRjMWU3M2NiZSJ9fX0=
+      uuid: f14f97c3-926a-4b98-ac1c-946507593452
+    lore:
+    - '&fｦ Sát thủ Doom &8(Bộ đồ đầy đủ)'
+    - '&7Giết kẻ địch sẽ lấy linh hồn của nó'
+    - '&7rồi ở đó trong &c3 giây&7 trước khi nổ,'
+    - '&7gây &c30&7 sát thương cho'
+    - '&7tất cả kẻ địch xung quanh, đồng thời'
+    - '&7áp dụng &b❆ Chậm I&7 cho tất cả'
+    - '&7mục tiêu bị trúng.'
+    - '&8Hồi chiêu:&3 3 giây'
+    - ''
+    - '&fｩ Sự Yếu Đuối của Phù Thủy &8(Bộ đồ đầy đủ)'
+    - '&7Nhấp Shift + Chuột Phải để đặt một phù'
+    - '&7lên một kẻ địch, tăng toàn bộ'
+    - '&7sát thương gây ra lên họ bởi &c25%'
+    - '&7trong &c5 giây'
+    - '&8Hồi chiêu: &320 giây'
+    set: Mortos
+    defense: 55.0
+    max-health: 35.0
+    damage-reduction: 2.5
+    knockback-resistance: 0.25
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_HELMET 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR QUINERUS_BATTLEHELM 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR HEXIM_JUDENHAT 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR CAELETUS_SALLET 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+    gem-sockets:
+    - Universal
+MORTOS_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: <#fca414>Mortos Chestplate
+    tier: S
+    critical-strike-chance: 15.0
+    critical-strike-power: 30.0
+    lore:
+    - '&fｦ Sát thủ Doom &8(Bộ đồ đầy đủ)'
+    - '&7Giết kẻ địch sẽ lấy linh hồn của nó'
+    - '&7rồi ở đó trong &c3 giây&7 trước khi nổ,'
+    - '&7gây &c30&7 sát thương cho'
+    - '&7tất cả kẻ địch xung quanh, đồng thời'
+    - '&7áp dụng &b❆ Chậm I&7 cho tất cả'
+    - '&7mục tiêu bị trúng.'
+    - '&8Hồi chiêu:&3 3 giây'
+    - ''
+    - '&fｩ Sự Yếu Đuối của Phù Thủy &8(Bộ đồ đầy đủ)'
+    - '&7Nhấp Shift + Chuột Phải để đặt một phù'
+    - '&7lên một kẻ địch, tăng toàn bộ'
+    - '&7sát thương gây ra lên họ bởi &c25%'
+    - '&7trong &c5 giây'
+    - '&8Hồi chiêu: &320 giây'
+    defense: 90.0
+    max-health: 55.0
+    knockback-resistance: 0.25
+    unstackable: true
+    durability-bar: true
+    hide-dye: true
+    dye-color: 102 246 255
+    damage-reduction: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    set: Mortos
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_CHESTPLATE 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR QUINERUS_CHESTPLATE 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR HEXIM_CHESTPLATE 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR CAELETUS_CHESTPLATE 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+    gem-sockets:
+    - Universal
+    - '&cVitality'
+MORTOS_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: <#fca414>Mortos Leggings
+    tier: S
+    critical-strike-chance: 10.0
+    critical-strike-power: 17.5
+    lore:
+    - '&fｦ Sát thủ Doom &8(Bộ đồ đầy đủ)'
+    - '&7Giết kẻ địch sẽ lấy linh hồn của nó'
+    - '&7rồi ở đó trong &c3 giây&7 trước khi nổ,'
+    - '&7gây &c30&7 sát thương cho'
+    - '&7tất cả kẻ địch xung quanh, đồng thời'
+    - '&7áp dụng &b❆ Chậm I&7 cho tất cả'
+    - '&7mục tiêu bị trúng.'
+    - '&8Hồi chiêu:&3 3 giây'
+    - ''
+    - '&fｩ Sự Yếu Đuối của Phù Thủy &8(Bộ đồ đầy đủ)'
+    - '&7Nhấp Shift + Chuột Phải để đặt một phù'
+    - '&7lên một kẻ địch, tăng toàn bộ'
+    - '&7sát thương gây ra lên họ bởi &c25%'
+    - '&7trong &c5 giây'
+    - '&8Hồi chiêu: &320 giây'
+    defense: 70.0
+    max-health: 50.0
+    unstackable: true
+    durability-bar: true
+    hide-dye: true
+    knockback-resistance: 0.25
+    dye-color: 102 246 255
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    damage-reduction: 2.5
+    set: Mortos
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_LEGGINGS 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR QUINERUS_LEGGINGS 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR HEXIM_LEGGINGS 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR CAELETUS_LEGGINGS 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+    gem-sockets:
+    - Universal
+    - '&cVitality'
+MORTOS_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: <#fca414>Mortos Boots
+    tier: S
+    critical-strike-chance: 10.0
+    critical-strike-power: 12.5
+    lore:
+    - '&fｦ Sát thủ Doom &8(Bộ đồ đầy đủ)'
+    - '&7Giết kẻ địch sẽ lấy linh hồn của nó'
+    - '&7rồi ở đó trong &c3 giây&7 trước khi nổ,'
+    - '&7gây &c30&7 sát thương cho'
+    - '&7tất cả kẻ địch xung quanh, đồng thời'
+    - '&7áp dụng &b❆ Chậm I&7 cho tất cả'
+    - '&7mục tiêu bị trúng.'
+    - '&8Hồi chiêu:&3 3 giây'
+    - ''
+    - '&fｩ Sự Yếu Đuối của Phù Thủy &8(Bộ đồ đầy đủ)'
+    - '&7Nhấp Shift + Chuột Phải để đặt một phù'
+    - '&7lên một kẻ địch, tăng toàn bộ'
+    - '&7sát thương gây ra lên họ bởi &c25%'
+    - '&7trong &c5 giây'
+    - '&8Hồi chiêu: &320 giây'
+    defense: 55.0
+    max-health: 45.0
+    unstackable: true
+    durability-bar: true
+    damage-reduction: 2.5
+    movement-speed: 0.04
+    knockback-resistance: 0.25
+    hide-dye: true
+    dye-color: 21 75 76
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    set: Mortos
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_BOOTS 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR QUINERUS_BOOTS 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR HEXIM_BOOTS 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR CAELETUS_BOOTS 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+    gem-sockets:
+    - Universal
+
+HEXIM_JUDENHAT:
+  base:
+    material: PLAYER_HEAD
+    name: <#fca414>Hexim Judenhat
+    tier: S
+    disable-interaction: true
+    skill-damage: 25
+    cooldown-reduction: 5
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTkyZTNmZTdkYWZlMDJjMGJlMDFjMTdjYmU2NGRjMGQ5YTI1MDVjMWNmMjM4MzdjNDllMmFlNzk0YWMxMjE4NCJ9fX0=
+      uuid: f14f97c3-926a-4b98-ac1c-946507593452
+    lore:
+    - '&fｦ Doomslayer &8(Bộ đồ đầy đủ)'
+    - '&7Khi giết kẻ địch, lấy linh hồn của nó'
+    - '&7rồi nổ sau &c3s, gây &c30&7 sát thương'
+    - '&7cho tất cả kẻ địch xung quanh, đồng thời'
+    - '&7áp dụng &b❆ Chậm I&7 cho tất cả mục tiêu'
+    - '&8Thời gian hồi chiêu:&3 3s'
+    - ''
+    - '&fｱ Nghệ Thuật Hồi Sinh &8(Bộ đồ đầy đủ)'
+    - '&7Khi giết một kẻ địch, nâng cấp'
+    - '&7nó thành một &dHex Renevant&7,'
+    - '&7tấn công các kẻ địch gần đó. Họ không'
+    - '&7bị gây sát thương. Renevants gây'
+    - '&c35&7 sát thương.'
+    - '&8Thời gian hồi chiêu: &35s'
+    set: Hexim
+    defense: 35.0
+    max-health: 35.0
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    additional-wisdom: 35.0
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_HELMET 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR QUINERUS_BATTLEHELM 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR MORTOS_ARMET 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR CAELETUS_SALLET 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+    gem-sockets:
+    - Universal
+HEXIM_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: <#fca414>Hexim Chestpalte
+    tier: S
+    skill-damage: 35
+    cooldown-reduction: 5
+    lore:
+    - '&fｦ Doomslayer &8(Bộ đồ đầy đủ)'
+    - '&7Khi giết kẻ địch, lấy linh hồn của nó'
+    - '&7rồi nổ sau &c3s, gây &c30&7 sát thương'
+    - '&7cho tất cả kẻ địch xung quanh, đồng thời'
+    - '&7áp dụng &b❆ Chậm I&7 cho tất cả mục tiêu'
+    - '&8Thời gian hồi chiêu:&3 3s'
+    - ''
+    - '&fｱ Nghệ Thuật Hồi Sinh &8(Bộ đồ đầy đủ)'
+    - '&7Khi giết một kẻ địch, nâng cấp'
+    - '&7nó thành một &dHex Renevant&7,'
+    - '&7tấn công các kẻ địch gần đó. Họ không'
+    - '&7bị gây sát thương. Renevants gây'
+    - '&c35&7 sát thương.'
+    - '&8Thời gian hồi chiêu: &35s'
+    set: Hexim
+    defense: 60.0
+    max-health: 35.0
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    dye-color: 206 141 238
+    hide-dye: true
+    additional-wisdom: 50.0
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_CHESTPLATE 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR QUINERUS_CHESTPLATE 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR MORTOS_CHESTPLATE 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR CAELETUS_CHESTPLATE 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+    gem-sockets:
+    - Universal
+    - '&dSorcery'
+HEXIM_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: <#fca414>Hexim Leggings
+    tier: S
+    skill-damage: 30
+    cooldown-reduction: 5
+    lore:
+    - '&fｦ Doomslayer &8(Bộ đồ đầy đủ)'
+    - '&7Khi giết kẻ địch, lấy linh hồn của nó'
+    - '&7rồi nổ sau &c3s, gây &c30&7 sát thương'
+    - '&7cho tất cả kẻ địch xung quanh, đồng thời'
+    - '&7áp dụng &b❆ Chậm I&7 cho tất cả mục tiêu'
+    - '&8Thời gian hồi chiêu:&3 3s'
+    - ''
+    - '&fｱ Nghệ Thuật Hồi Sinh &8(Bộ đồ đầy đủ)'
+    - '&7Khi giết một kẻ địch, nâng cấp'
+    - '&7nó thành một &dHex Renevant&7,'
+    - '&7tấn công các kẻ địch gần đó. Họ không'
+    - '&7bị gây sát thương. Renevants gây'
+    - '&c35&7 sát thương.'
+    - '&8Thời gian hồi chiêu: &35s'
+    set: Hexim
+    defense: 55.0
+    max-health: 40.0
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    dye-color: 206 141 238
+    hide-dye: true
+    additional-wisdom: 40.0
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_LEGGINGS 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR QUINERUS_LEGGINGS 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR MORTOS_LEGGINGS 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR CAELETUS_LEGGINGS 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+    gem-sockets:
+    - Universal
+    - '&dSorcery'
+HEXIM_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: <#fca414>Hexim Boots
+    tier: S
+    skill-damage: 25
+    cooldown-reduction: 5
+    lore:
+    - '&fｦ Doomslayer &8(Bộ đồ đầy đủ)'
+    - '&7Khi giết kẻ địch, lấy linh hồn của nó'
+    - '&7rồi nổ sau &c3s, gây &c30&7 sát thương'
+    - '&7cho tất cả kẻ địch xung quanh, đồng thời'
+    - '&7áp dụng &b❆ Chậm I&7 cho tất cả mục tiêu'
+    - '&8Thời gian hồi chiêu:&3 3s'
+    - ''
+    - '&fｱ Nghệ Thuật Hồi Sinh &8(Bộ đồ đầy đủ)'
+    - '&7Khi giết một kẻ địch, nâng cấp'
+    - '&7nó thành một &dHex Renevant&7,'
+    - '&7tấn công các kẻ địch gần đó. Họ không'
+    - '&7bị gây sát thương. Renevants gây'
+    - '&c35&7 sát thương.'
+    - '&8Thời gian hồi chiêu: &35s'
+    set: Hexim
+    defense: 40.0
+    max-health: 30.0
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    dye-color: 0 4 51
+    hide-dye: true
+    movement-speed: 0.05
+    additional-wisdom: 35.0
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_BOOTS 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR QUINERUS_BOOTS 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR MORTOS_BOOTS 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR CAELETUS_BOOTS 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+    gem-sockets:
+    - Universal
+
+MYTHRIL_HELMET:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWIzNzZmNzQ4OTlhNjRhMzFkZjEwNmRlOWMzY2FjMTA5Y2VhYThhMmQxZWIzZmFjN2MwMDgzNDM1NDg2MDRmNiJ9fX0=
+      uuid: e5c42b03-acbc-4e38-9a98-836cc59b7bda
+    name: <#049cdc>Mythril Helmet
+    disable-interaction: true
+    critical-strike-chance: 7.0
+    critical-strike-power: 12.5
+    defense: 25.0
+    max-health: 15.0
+    unstackable: true
+    set: Mythril
+    lore:
+    - '&fヱ Linh hoạt &8(Thụ động)'
+    - '&7Các đòn tấn công của bạn có hiệu ứng khác nhau'
+    - '&7tùy thuộc vào lượng &c❤ Khỏe&7 hiện tại của bạn:'
+    - '&8+ &c100% &8→ &c75%❤&7 Thưởng &6+15%'
+    - 'sát thương.'
+    - '&8+ &c75% &8→ &c30%❤&7 &6+10% &7sát thương'
+    - 'và hồi &e1%❤'
+    - '&8+ &c30% &8→ &c1%❤&7 Hồi &62%❤&7'
+    tier: B
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MATERIAL MYTHRIL_INGOT 1.0..|m MATERIAL MYTHRIL_INGOT 1.0..|m MATERIAL
+            MYTHRIL_INGOT 1.0..
+          - m MATERIAL MYTHRIL_INGOT 1.0..|v AIR 0 1..|m MATERIAL MYTHRIL_INGOT 1.0..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+MYTHRIL_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: <#049cdc>Mythril Chestplate
+    critical-strike-chance: 12.5
+    critical-strike-power: 22.5
+    defense: 50.0
+    max-health: 25.0
+    damage-reduction: 2
+    set: Mythril
+    lore:
+    - '&fヱ Linh hoạt &8(Thụ động)'
+    - '&7Các đòn tấn công của bạn có hiệu ứng khác nhau'
+    - '&7tùy thuộc vào lượng &c❤ Khỏe&7 hiện tại của bạn:'
+    - '&8+ &c100% &8→ &c75%❤&7 Thưởng &6+15%'
+    - 'sát thương.'
+    - '&8+ &c75% &8→ &c30%❤&7 &6+10% &7sát thương'
+    - 'và hồi &e1%❤'
+    - '&8+ &c30% &8→ &c1%❤&7 Hồi &62%❤&7'
+    tier: B
+    dye-color: 197 170 195
+    hide-dye: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MATERIAL MYTHRIL_INGOT 1.0..|v AIR 0 1..|m MATERIAL MYTHRIL_INGOT 1.0..
+          - m MATERIAL MYTHRIL_INGOT 1.0..|m MATERIAL MYTHRIL_INGOT 1.0..|m MATERIAL
+            MYTHRIL_INGOT 1.0..
+          - m MATERIAL MYTHRIL_INGOT 1.0..|m MATERIAL MYTHRIL_INGOT 1.0..|m MATERIAL
+            MYTHRIL_INGOT 1.0..
+MYTHRIL_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: <#049cdc>Mythril Leggings
+    critical-strike-chance: 7.0
+    critical-strike-power: 15.0
+    defense: 35.0
+    max-health: 17.0
+    set: Mythril
+    lore:
+    - '&fヱ Linh hoạt &8(Thụ động)'
+    - '&7Các đòn tấn công của bạn có hiệu ứng khác nhau'
+    - '&7tùy thuộc vào lượng &c❤ Khỏe&7 hiện tại của bạn:'
+    - '&8+ &c100% &8→ &c75%❤&7 Thưởng &6+15%'
+    - 'sát thương.'
+    - '&8+ &c75% &8→ &c30%❤&7 &6+10% &7sát thương'
+    - 'và hồi &e1%❤'
+    - '&8+ &c30% &8→ &c1%❤&7 Hồi &62%❤&7'
+    tier: B
+    dye-color: 197 170 195
+    hide-dye: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MATERIAL MYTHRIL_INGOT 1.0..|m MATERIAL MYTHRIL_INGOT 1.0..|m MATERIAL
+            MYTHRIL_INGOT 1.0..
+          - m MATERIAL MYTHRIL_INGOT 1.0..|v AIR 0 1..|m MATERIAL MYTHRIL_INGOT 1.0..
+          - m MATERIAL MYTHRIL_INGOT 1.0..|v AIR 0 1..|m MATERIAL MYTHRIL_INGOT 1.0..
+MYTHRIL_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: <#049cdc>Mythril Boots
+    critical-strike-chance: 5.0
+    critical-strike-power: 10.0
+    defense: 25.0
+    max-health: 20.0
+    movement-speed: 0.01
+    set: Mythril
+    lore:
+    - '&fヱ Linh hoạt &8(Thụ động)'
+    - '&7Các đòn tấn công của bạn có hiệu ứng khác nhau'
+    - '&7tùy thuộc vào lượng &c❤ Khỏe&7 hiện tại của bạn:'
+    - '&8+ &c100% &8→ &c75%❤&7 Thưởng &6+15%'
+    - 'sát thương.'
+    - '&8+ &c75% &8→ &c30%❤&7 &6+10% &7sát thương'
+    - 'và hồi &e1%❤'
+    - '&8+ &c30% &8→ &c1%❤&7 Hồi &62%❤&7'
+    tier: B
+    dye-color: 6 213 230
+    hide-dye: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+          - m MATERIAL MYTHRIL_INGOT 1.0..|v AIR 0 1..|m MATERIAL MYTHRIL_INGOT 1.0..
+          - m MATERIAL MYTHRIL_INGOT 1.0..|v AIR 0 1..|m MATERIAL MYTHRIL_INGOT 1.0..
+
+ORICHALCUM_MASK:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmMyOWFmM2E1MmEyM2FiOTRkYjJlY2NhNzU1OTMxMzEyNzY3ZDNiNTE0ZDQ3MDU2ZmM4NDQ0MGM3ZTI4NDljZCJ9fX0=
+      uuid: e5c42b03-acbc-4e38-9a98-836cc59b7bda
+    name: <#7a09fa>Orichalcum Mask
+    disable-interaction: true
+    defense: 30.0
+    max-health: 20.0
+    unstackable: true
+    tier: A
+    skill-damage: 15.0
+    set: Orichalcum
+    lore:
+    - '&fロ Sát thương Mystic &8(Thụ động)'
+    - '&7Mỗi mảnh &dÁo giáp Orichalcum'
+    - '&7bạn trang bị mang lại &c+10%&7 sát thương'
+    - '&7kỹ năng.'
+    additional-wisdom: 35.0
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MATERIAL ORICHALCUM_INGOT 1.0..|m MATERIAL ORICHALCUM_INGOT 1.0..|m
+            MATERIAL ORICHALCUM_INGOT 1.0..
+          - m MATERIAL ORICHALCUM_INGOT 1.0..|v AIR 0 1..|m MATERIAL ORICHALCUM_INGOT
+            1.0..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+ORICHALCUM_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: <#7a09fa>Orichalcum Chestplate
+    skill-damage: 30.0
+    defense: 55.0
+    max-health: 30.0
+    cooldown-reduction: 10
+    additional-wisdom: 100
+    set: Orichalcum
+    lore:
+    - '&fロ Sát thương Mystic &8(Thụ động)'
+    - '&7Mỗi mảnh &dÁo giáp Orichalcum'
+    - '&7bạn trang bị mang lại &c+10%&7 sát thương'
+    - '&7kỹ năng.'
+    tier: A
+    dye-color: 255 77 255
+    hide-dye: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MATERIAL ORICHALCUM_INGOT 1.0..|v AIR 0 1..|m MATERIAL ORICHALCUM_INGOT
+            1.0..
+          - m MATERIAL ORICHALCUM_INGOT 1.0..|m MATERIAL ORICHALCUM_INGOT 1.0..|m
+            MATERIAL ORICHALCUM_INGOT 1.0..
+          - m MATERIAL ORICHALCUM_INGOT 1.0..|m MATERIAL ORICHALCUM_INGOT 1.0..|m
+            MATERIAL ORICHALCUM_INGOT 1.0..
+ORICHALCUM_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: <#7a09fa>Orichalcum Leggings
+    skill-damage: 15.0
+    defense: 40.0
+    max-health: 20.0
+    cooldown-reduction: 5
+    additional-wisdom: 75
+    set: Orichalcum
+    lore:
+    - '&fロ Sát thương Mystic &8(Thụ động)'
+    - '&7Mỗi mảnh &dÁo giáp Orichalcum'
+    - '&7bạn trang bị mang lại &c+10%&7 sát thương'
+    - '&7kỹ năng.'
+    tier: A
+    dye-color: 255 137 255
+    hide-dye: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MATERIAL ORICHALCUM_INGOT 1.0..|m MATERIAL ORICHALCUM_INGOT 1.0..|m
+            MATERIAL ORICHALCUM_INGOT 1.0..
+          - m MATERIAL ORICHALCUM_INGOT 1.0..|v AIR 0 1..|m MATERIAL ORICHALCUM_INGOT
+            1.0..
+          - m MATERIAL ORICHALCUM_INGOT 1.0..|v AIR 0 1..|m MATERIAL ORICHALCUM_INGOT
+            1.0..
+ORICHALCUM_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: <#7a09fa>Orichalcum Boots
+    skill-damage: 10.0
+    defense: 30.0
+    max-health: 25.0
+    additional-wisdom: 25
+    movement-speed: 0.02
+    set: Orichalcum
+    lore:
+    - '&fロ Sát thương Mystic &8(Thụ động)'
+    - '&7Mỗi mảnh &dÁo giáp Orichalcum'
+    - '&7bạn trang bị mang lại &c+10%&7 sát thương'
+    - '&7kỹ năng.'
+    tier: A
+    dye-color: 255 177 255
+    hide-dye: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+          - m MATERIAL ORICHALCUM_INGOT 1.0..|v AIR 0 1..|m MATERIAL ORICHALCUM_INGOT
+            1.0..
+          - m MATERIAL ORICHALCUM_INGOT 1.0..|v AIR 0 1..|m MATERIAL ORICHALCUM_INGOT
+            1.0..
+
+TITANIUM_HELMET:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjczOThlYjg0NDdlN2JjZjEzYzE2MTEyMmFhODNmNDhhN2Q1NDEyMWQ0Nzc5ZTk5M2FlMTMwNGJkMThhYzEifX19
+      uuid: e5c42b03-acbc-4e38-9a98-836cc59b7bda
+    name: <#7a09fa>Titanium Helmet
+    disable-interaction: true
+    critical-strike-chance: 5.0
+    critical-strike-power: 10.0
+    defense: 60.0
+    max-health: 20.0
+    unstackable: true
+    tier: A
+    set: Titanium
+    lore:
+    - '&fレ Trả thù &8(Thụ động)'
+    - '&7Bị đánh sẽ tăng &f🛡 của bạn'
+    - '&7thêm &c20%&7 và gây &bChậm I'
+    - '&7cho tất cả mục tiêu xung quanh.'
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MATERIAL TITANIUM_INGOT 1.0..|m MATERIAL TITANIUM_INGOT 1.0..|m MATERIAL
+            TITANIUM_INGOT 1.0..
+          - m MATERIAL TITANIUM_INGOT 1.0..|v AIR 0 1..|m MATERIAL TITANIUM_INGOT
+            1.0..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+TITANIUM_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: <#7a09fa>Titanium Chestplate
+    critical-strike-chance: 10.0
+    critical-strike-power: 22.5
+    defense: 50.0
+    max-health: 35.0
+    tier: A
+    set: Titanium
+    lore:
+    - '&fレ Trả thù &8(Thụ động)'
+    - '&7Bị đánh sẽ tăng &f🛡 của bạn'
+    - '&7thêm &c20%&7 và gây &bChậm I'
+    - '&7cho tất cả mục tiêu xung quanh.'
+    dye-color: 154 154 154
+    hide-dye: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MATERIAL TITANIUM_INGOT 1.0..|v AIR 0 1..|m MATERIAL TITANIUM_INGOT
+            1.0..
+          - m MATERIAL TITANIUM_INGOT 1.0..|m MATERIAL TITANIUM_INGOT 1.0..|m MATERIAL
+            TITANIUM_INGOT 1.0..
+          - m MATERIAL TITANIUM_INGOT 1.0..|m MATERIAL TITANIUM_INGOT 1.0..|m MATERIAL
+            TITANIUM_INGOT 1.0..
+TITANIUM_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: <#7a09fa>Titanium Leggings
+    critical-strike-chance: 6.0
+    critical-strike-power: 17.5
+    defense: 40.0
+    max-health: 30.0
+    tier: A
+    set: Titanium
+    lore:
+    - '&fレ Trả thù &8(Thụ động)'
+    - '&7Bị đánh sẽ tăng &f🛡 của bạn'
+    - '&7thêm &c20%&7 và gây &bChậm I'
+    - '&7cho tất cả mục tiêu xung quanh.'
+    dye-color: 192 192 192
+    hide-dye: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MATERIAL TITANIUM_INGOT 1.0..|m MATERIAL TITANIUM_INGOT 1.0..|m MATERIAL
+            TITANIUM_INGOT 1.0..
+          - m MATERIAL TITANIUM_INGOT 1.0..|v AIR 0 1..|m MATERIAL TITANIUM_INGOT
+            1.0..
+          - m MATERIAL TITANIUM_INGOT 1.0..|v AIR 0 1..|m MATERIAL TITANIUM_INGOT
+            1.0..
+TITANIUM_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: <#7a09fa>Titanium Boots
+    critical-strike-chance: 5.0
+    critical-strike-power: 12.5
+    defense: 35.0
+    max-health: 25.0
+    movement-speed: 0.03
+    tier: A
+    set: Titanium
+    lore:
+    - '&fレ Trả thù &8(Thụ động)'
+    - '&7Bị đánh sẽ tăng &f🛡 của bạn'
+    - '&7thêm &c20%&7 và gây &bChậm I'
+    - '&7cho tất cả mục tiêu xung quanh.'
+    dye-color: 230 230 230
+    hide-dye: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+          - m MATERIAL TITANIUM_INGOT 1.0..|v AIR 0 1..|m MATERIAL TITANIUM_INGOT
+            1.0..
+          - m MATERIAL TITANIUM_INGOT 1.0..|v AIR 0 1..|m MATERIAL TITANIUM_INGOT
+            1.0..
+
+PERMAFROST_HELMET:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzc5MzdlNDQzZWU5MjE1NDI4ZDE2MjYzODc0N2NjYzU2OTYzZTMwYzEzYjk0Yzk5MmM3ZjA5YzEyN2Y4NDJlZSJ9fX0=
+      uuid: e5c42b03-acbc-4e38-9a98-836cc59b7bda
+    name: <#fca414>Permafrost Helmet
+    disable-interaction: true
+    critical-strike-chance: 5.0
+    critical-strike-power: 5.0
+    skill-damage: 25
+    additional-wisdom: 80
+    defense: 45.0
+    max-health: 15.0
+    unstackable: true
+    tier: S
+    set: Permafrost
+    lore:
+    - '&fఽ Thợ Săn Băng &8(Thụ động)'
+    - '&7Giết một quái vật sẽ biến chúng'
+    - '&7thành <#d3fafb>Thiên Thạch Lạnh&7, sẽ'
+    - '&7di chuyển chậm lại gần'
+    - '&7các quái vật, làm &bChậm&7 chúng và'
+    - '&7gây &c20&7 sát thương mỗi giây.'
+    - '&7Sau 5 giây nó sẽ tan ra,'
+    - '<#d3fafb>làm đông lạnh&7 tất cả mục tiêu xung quanh.'
+    - ''
+    - '&fి &8Độc quyền Giáng Sinh 2024!'
+    ability: {}
+PERMAFROST_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: <#fca414>Permafrost Chestplate
+    critical-strike-chance: 7.5
+    critical-strike-power: 17.5
+    knockback-resistance: 0.2
+    defense: 65.0
+    max-health: 30.0
+    tier: S
+    set: Permafrost
+    lore:
+    - '&fఽ Thợ Săn Băng &8(Thụ động)'
+    - '&7Giết một quái vật sẽ biến chúng'
+    - '&7thành <#d3fafb>Thiên Thạch Lạnh&7, sẽ'
+    - '&7di chuyển chậm lại gần'
+    - '&7các quái vật, làm &bChậm&7 chúng và'
+    - '&7gây &c20&7 sát thương mỗi giây.'
+    - '&7Sau 5 giây nó sẽ tan ra,'
+    - '<#d3fafb>làm đông lạnh&7 tất cả mục tiêu xung quanh.'
+    - ''
+    - '&fి &8Độc quyền Giáng Sinh 2024!'
+    dye-color: 211 250 251
+    hide-dye: true
+PERMAFROST_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: <#fca414>Permafrost Leggings
+    critical-strike-chance: 10.0
+    critical-strike-power: 25.0
+    weapon-damage: 10
+    defense: 30.0
+    max-health: 30.0
+    tier: S
+    set: Permafrost
+    lore:
+    - '&fఽ Thợ Săn Băng &8(Thụ động)'
+    - '&7Giết một quái vật sẽ biến chúng'
+    - '&7thành <#d3fafb>Thiên Thạch Lạnh&7, sẽ'
+    - '&7di chuyển chậm lại gần'
+    - '&7các quái vật, làm &bChậm&7 chúng và'
+    - '&7gây &c20&7 sát thương mỗi giây.'
+    - '&7Sau 5 giây nó sẽ tan ra,'
+    - '<#d3fafb>làm đông lạnh&7 tất cả mục tiêu xung quanh.'
+    - ''
+    - '&fి &8Độc quyền Giáng Sinh 2024!'
+    dye-color: 211 250 251
+    hide-dye: true
+PERMAFROST_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: <#fca414>Permafrost Boots
+    critical-strike-chance: 10.0
+    critical-strike-power: 22.5
+    defense: 50.0
+    max-health: 35.0
+    tier: S
+    set: Permafrost
+    lore:
+    - '&fఽ Thợ Săn Băng &8(Thụ động)'
+    - '&7Giết một quái vật sẽ biến chúng'
+    - '&7thành <#d3fafb>Thiên Thạch Lạnh&7, sẽ'
+    - '&7di chuyển chậm lại gần'
+    - '&7các quái vật, làm &bChậm&7 chúng và'
+    - '&7gây &c20&7 sát thương mỗi giây.'
+    - '&7Sau 5 giây nó sẽ tan ra,'
+    - '<#d3fafb>làm đông lạnh&7 tất cả mục tiêu xung quanh.'
+    - ''
+    - '&fి &8Độc quyền Giáng Sinh 2024!'
+    dye-color: 211 250 251
+    hide-dye: true
+    fall-damage-reduction: 35.0
+    movement-speed: 0.03
+
+URANIUM_HELMET:
+  base:
+    material: LEATHER_HELMET
+    custom-model-data: 10000.0
+    critical-strike-chance: 15.0
+    critical-strike-power: 35.0
+    defense: 60.0
+    max-health: 45.0
+    set: Uranium
+    hide-dye: true
+    dye-color: 252 3 12
+    name: <#dc3cfc>Uranium Helmet
+    lore:
+    - '&fTrang phục phù hợp &8(Bình Thường)'
+    - '&7Mỗi khi bạn trang bị <#7D8F69>Bộ Uranium&7'
+    - '&7bạn sẽ nhận được &c+5% Sát thương&7,'
+    - '&f+10🛡 Phòng thủ&7 & &b+10✎ Trí tuệ'
+    - ''
+    - '&fBức Xạ &8(Bình Thường)'
+    - '&7Tấn công kẻ địch sẽ gây nhiễm &fBức Xạ&7 lên họ,'
+    - '&7tích lũy lên đến &c15 lần,'
+    - '&7khi đó một cơn bùng nổ &fBức Xạ'
+    - '&7sẽ xảy ra, gây &c1000&7 sát thương cho'
+    - '&7kẻ địch xung quanh.'
+    tier: S+
+URANIUM_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    custom-model-data: 10000.0
+    critical-strike-chance: 20.0
+    critical-strike-power: 50.0
+    defense: 75.0
+    max-health: 70.0
+    set: Uranium
+    hide-dye: true
+    dye-color: 252 3 12
+    name: <#dc3cfc>Uranium Chestplate
+    lore:
+    - '&fTrang phục phù hợp &8(Bình Thường)'
+    - '&7Mỗi khi bạn trang bị <#7D8F69>Bộ Uranium&7'
+    - '&7bạn sẽ nhận được &c+5% Sát thương&7,'
+    - '&f+10🛡 Phòng thủ&7 & &b+10✎ Trí tuệ'
+    - ''
+    - '&fBức Xạ &8(Bình Thường)'
+    - '&7Tấn công kẻ địch sẽ gây nhiễm &fBức Xạ&7 lên họ,'
+    - '&7tích lũy lên đến &c15 lần,'
+    - '&7khi đó một cơn bùng nổ &fBức Xạ'
+    - '&7sẽ xảy ra, gây &c1000&7 sát thương cho'
+    - '&7kẻ địch xung quanh.'
+    tier: S+
+URANIUM_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    custom-model-data: 10000.0
+    critical-strike-chance: 15.0
+    critical-strike-power: 40.0
+    defense: 55.0
+    max-health: 55.0
+    set: Uranium
+    hide-dye: true
+    dye-color: 252 3 12
+    name: <#dc3cfc>Uranium Leggings
+    lore:
+    - '&fTrang phục phù hợp &8(Bình Thường)'
+    - '&7Mỗi khi bạn trang bị <#7D8F69>Bộ Uranium&7'
+    - '&7bạn sẽ nhận được &c+5% Sát thương&7,'
+    - '&f+10🛡 Phòng thủ&7 & &b+10✎ Trí tuệ'
+    - ''
+    - '&fBức Xạ &8(Bình Thường)'
+    - '&7Tấn công kẻ địch sẽ gây nhiễm &fBức Xạ&7 lên họ,'
+    - '&7tích lũy lên đến &c15 lần,'
+    - '&7khi đó một cơn bùng nổ &fBức Xạ'
+    - '&7sẽ xảy ra, gây &c1000&7 sát thương cho'
+    - '&7kẻ địch xung quanh.'
+    tier: S+
+URANIUM_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    custom-model-data: 10000.0
+    critical-strike-chance: 12.5
+    critical-strike-power: 25.0
+    defense: 45.0
+    max-health: 50.0
+    movement-speed: 0.05
+    set: Uranium
+    hide-dye: true
+    dye-color: 252 3 12
+    name: <#dc3cfc>Uranium Boots
+    lore:
+    - '&fTrang phục phù hợp &8(Bình Thường)'
+    - '&7Mỗi khi bạn trang bị <#7D8F69>Bộ Uranium&7'
+    - '&7bạn sẽ nhận được &c+5% Sát thương&7,'
+    - '&f+10🛡 Phòng thủ&7 & &b+10✎ Trí tuệ'
+    - ''
+    - '&fBức Xạ &8(Bình Thường)'
+    - '&7Tấn công kẻ địch sẽ gây nhiễm &fBức Xạ&7 lên họ,'
+    - '&7tích lũy lên đến &c15 lần,'
+    - '&7khi đó một cơn bùng nổ &fBức Xạ'
+    - '&7sẽ xảy ra, gây &c1000&7 sát thương cho'
+    - '&7kẻ địch xung quanh.'
+    tier: S+
+
+STARBORN_HELMET:
+  base:
+    material: PLAYER_HEAD
+    critical-strike-power: 35.0
+    defense: 35.0
+    max-health: 35.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYzMTY5NDM1ZWU2NDgwZDE0Y2MwZDFhNWZkNTUxNGYzODcyMTBjYmZlNjE2ZjAzNmY4N2NjMDkzYTkyNWE5NiJ9fX0=
+      uuid: e5c42b03-acbc-4e38-9a98-836cc59b7bda
+    name: <#dc3cfc>Starborn Helmet
+    lore:
+    - '&fChuyển đổi Starborne &8(Bình Thường)'
+    - '&7Mỗi <#F8C8DC>15 giây&7, mỗi lần tấn công sẽ cấp 1 phần'
+    - '&7của <#FDFD96>Sức mạnh Sao&7, lên đến tối đa 5 phần'
+    - '&8Nhấn Shift + Tấn công&7 để sử dụng <#FDFD96>1 phần'
+    - <#FDFD96>Sức mạnh Sao&7 để biến 1 con quái vật
+    - '&7thành một <#F8C8DC>Starborn &8(không hiệu quả đối với'
+    - '&7boss và mini-boss).'
+    set: Starborn
+    tier: S+
+    dye-color: 253 253 150
+    hide-dye: true
+STARBORN_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    critical-strike-power: 60.0
+    defense: 60.0
+    max-health: 35.0
+    name: <#dc3cfc>Starborn Helmet
+    lore:
+    - '&fChuyển đổi Starborne &8(Bình Thường)'
+    - '&7Mỗi <#F8C8DC>15 giây&7, mỗi lần tấn công sẽ cấp 1 phần'
+    - '&7của <#FDFD96>Sức mạnh Sao&7, lên đến tối đa 5 phần'
+    - '&8Nhấn Shift + Tấn công&7 để sử dụng <#FDFD96>1 phần'
+    - <#FDFD96>Sức mạnh Sao&7 để biến 1 con quái vật
+    - '&7thành một <#F8C8DC>Starborn &8(không hiệu quả đối với'
+    - '&7boss và mini-boss).'
+    set: Starborn
+    tier: S+
+    dye-color: 248 200 220
+    hide-dye: true
+STARBORN_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    critical-strike-power: 50.0
+    defense: 55.0
+    max-health: 40.0
+    name: <#dc3cfc>Starborn Helmet
+    lore:
+    - '&fChuyển đổi Starborne &8(Bình Thường)'
+    - '&7Mỗi <#F8C8DC>15 giây&7, mỗi lần tấn công sẽ cấp 1 phần'
+    - '&7của <#FDFD96>Sức mạnh Sao&7, lên đến tối đa 5 phần'
+    - '&8Nhấn Shift + Tấn công&7 để sử dụng <#FDFD96>1 phần'
+    - <#FDFD96>Sức mạnh Sao&7 để biến 1 con quái vật
+    - '&7thành một <#F8C8DC>Starborn &8(không hiệu quả đối với'
+    - '&7boss và mini-boss).'
+    set: Starborn
+    tier: S+
+    dye-color: 253 253 150
+    hide-dye: true
+STARBORN_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    critical-strike-power: 40.0
+    defense: 40.0
+    max-health: 35.0
+    movement-speed: 0.03
+    name: <#dc3cfc>Starborn Helmet
+    lore:
+    - '&fChuyển đổi Starborne &8(Bình Thường)'
+    - '&7Mỗi <#F8C8DC>15 giây&7, mỗi lần tấn công sẽ cấp 1 phần'
+    - '&7của <#FDFD96>Sức mạnh Sao&7, lên đến tối đa 5 phần'
+    - '&8Nhấn Shift + Tấn công&7 để sử dụng <#FDFD96>1 phần'
+    - <#FDFD96>Sức mạnh Sao&7 để biến 1 con quái vật
+    - '&7thành một <#F8C8DC>Starborn &8(không hiệu quả đối với'
+    - '&7boss và mini-boss).'
+    set: Starborn
+    tier: S+
+    dye-color: 248 200 220
+    hide-dye: true
+
+DEATH_HELMET:
+  base:
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE1MGE4MmM1ODgwNjZjN2IyZTVjNDUyNGIzYzQwZmNlNWZjYTViYjg1Zjk0ZGE2NDY2MDNhNmFiN2FkMzlhMyJ9fX0=
+      uuid: 49c9f9e4-55ee-4304-b133-2ffa77612fb3
+    material: PLAYER_HEAD
+    skill-damage: 15.0
+    cooldown-reduction: 2.5
+    additional-wisdom: 20
+    defense: 25.0
+    max-health: 30.0
+    set: Death
+    name: <#7a09fa>Death Helmet
+    lore:
+    - '&fĐánh Cắp Bản Chất &8(Bình Thường)'
+    - '&7Giết một kẻ địch sẽ đánh cắp bản chất của họ,'
+    - '&7hồi &c5% máu tối đa&7 và &b10% mana&7.'
+    - '&8(2 giây hồi cooldown)'
+    tier: A
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR NETHERITE_HELMET 1.0..|m MATERIAL WITHERED_ROSE 1.0..
+DEATH_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    skill-damage: 20.0
+    cooldown-reduction: 5.0
+    additional-wisdom: 35
+    defense: 30.0
+    max-health: 35.0
+    hide-dye: true
+    dye-color: 128 128 128
+    set: Death
+    name: <#7a09fa>Death Chestplate
+    lore:
+    - '&fĐánh Cắp Bản Chất &8(Bình Thường)'
+    - '&7Giết một kẻ địch sẽ đánh cắp bản chất của họ,'
+    - '&7hồi &c5% máu tối đa&7 và &b10% mana&7.'
+    - '&8(2 giây hồi cooldown)'
+    tier: A
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR NETHERITE_CHESTPLATE 1.0..|m MATERIAL WITHERED_ROSE 1.0..
+DEATH_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    skill-damage: 15.0
+    cooldown-reduction: 5.0
+    additional-wisdom: 30
+    defense: 30.0
+    max-health: 30.0
+    hide-dye: true
+    dye-color: 128 128 128
+    set: Death
+    name: <#7a09fa>Death Leggings
+    lore:
+    - '&fĐánh Cắp Bản Chất &8(Bình Thường)'
+    - '&7Giết một kẻ địch sẽ đánh cắp bản chất của họ,'
+    - '&7hồi &c5% máu tối đa&7 và &b10% mana&7.'
+    - '&8(2 giây hồi cooldown)'
+    tier: A
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR NETHERITE_LEGGINGS 1.0..|m MATERIAL WITHERED_ROSE 1.0..
+DEATH_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    skill-damage: 15.0
+    cooldown-reduction: 2.5
+    additional-wisdom: 25
+    defense: 25.0
+    max-health: 20.0
+    hide-dye: true
+    dye-color: 54 69 79
+    movement-speed: 0.02
+    set: Death
+    name: <#7a09fa>Death Boots
+    lore:
+    - '&fĐánh Cắp Bản Chất &8(Bình Thường)'
+    - '&7Giết một kẻ địch sẽ đánh cắp bản chất của họ,'
+    - '&7hồi &c5% máu tối đa&7 và &b10% mana&7.'
+    - '&8(2 giây hồi cooldown)'
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR NETHERITE_BOOTS 1.0..|m MATERIAL WITHERED_ROSE 1.0..
+
+REAPER_HELMET:
+  base:
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjU5MWM4OGY1OTc4ZmZiY2NkMjcyMDM5NmM3NTM0ZTBkNGVkMWI0NzViNmRmOGRhYjdjN2VjODFjZmE3NDA0ZSJ9fX0=
+      uuid: 49c9f9e4-55ee-4304-b133-2ffa77612fb3
+    material: PLAYER_HEAD
+    skill-damage: 20.0
+    cooldown-reduction: 3.0
+    additional-wisdom: 25
+    defense: 30.0
+    max-health: 35.0
+    name: <#fca414>Reaper Helmet
+    set: Reaper
+    lore:
+    - '&fహ Đánh Cắp Tinh Hoa <#9F2B68>&l⟰ &8(Trạng thái)'
+    - '&7Khi giết một kẻ địch, lấy đi'
+    - '&7tinh hoa của họ, hồi phục &c10% máu'
+    - '&c❤ &7và &b20% mana&7.'
+    - '&8(2s hồi chiêu)'
+    - ''
+    - '<#9F2B68>ᴇɴᴅᴇʀᴄᴏʀᴇ ʙᴏɴᴜꜱ: &7Tinh hoa'
+    - '&7cũng cung cấp <#9966cc>+10% ۞Sức mạnh'
+    - '<#9966cc>Ưu điểm &7và <#ADD8E6>+5 ☁Tốc độ'
+    tier: S
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR DEATH_HELMET 1.0..|m MATERIAL ENDERCORE 1.0..
+          amount: 1
+REAPER_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    skill-damage: 25.0
+    cooldown-reduction: 5.0
+    additional-wisdom: 50
+    defense: 35.0
+    max-health: 40.0
+    hide-dye: true
+    dye-color: 119 136 153
+    set: Reaper
+    name: <#fca414>Reaper Chestplate
+    lore:
+    - '&fహ Đánh Cắp Tinh Hoa <#9F2B68>&l⟰ &8(Trạng thái)'
+    - '&7Khi giết một kẻ địch, lấy đi'
+    - '&7tinh hoa của họ, hồi phục &c10% máu'
+    - '&c❤ &7và &b20% mana&7.'
+    - '&8(2s hồi chiêu)'
+    - ''
+    - '<#9F2B68>ᴇɴᴅᴇʀᴄᴏʀᴇ ʙᴏɴᴜꜱ: &7Tinh hoa'
+    - '&7cũng cung cấp <#9966cc>+10% ۞Sức mạnh'
+    - '<#9966cc>Ưu điểm &7và <#ADD8E6>+5 ☁Tốc độ'
+    tier: S
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR DEATH_CHESTPLATE 1.0..|m MATERIAL ENDERCORE 1.0..
+          amount: 1
+REAPER_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    skill-damage: 20.0
+    cooldown-reduction: 5.0
+    additional-wisdom: 35
+    defense: 35.0
+    max-health: 35.0
+    hide-dye: true
+    dye-color: 119 136 153
+    set: Reaper
+    name: <#fca414>Reaper Leggings
+    lore:
+    - '&fహ Đánh Cắp Tinh Hoa <#9F2B68>&l⟰ &8(Trạng thái)'
+    - '&7Khi giết một kẻ địch, lấy đi'
+    - '&7tinh hoa của họ, hồi phục &c10% máu'
+    - '&c❤ &7và &b20% mana&7.'
+    - '&8(2s hồi chiêu)'
+    - ''
+    - '<#9F2B68>ᴇɴᴅᴇʀᴄᴏʀᴇ ʙᴏɴᴜꜱ: &7Tinh hoa'
+    - '&7cũng cung cấp <#9966cc>+10% ۞Sức mạnh'
+    - '<#9966cc>Ưu điểm &7và <#ADD8E6>+5 ☁Tốc độ'
+    tier: S
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR DEATH_LEGGINGS 1.0..|m MATERIAL ENDERCORE 1.0..
+          amount: 1
+REAPER_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    skill-damage: 20.0
+    cooldown-reduction: 2.5
+    additional-wisdom: 30
+    defense: 30.0
+    max-health: 25.0
+    hide-dye: true
+    dye-color: 119 136 153
+    set: Reaper
+    movement-speed: 0.02
+    name: <#fca414>Reaper Boots
+    lore:
+    - '&fహ Đánh Cắp Tinh Hoa <#9F2B68>&l⟰ &8(Trạng thái)'
+    - '&7Khi giết một kẻ địch, lấy đi'
+    - '&7tinh hoa của họ, hồi phục &c10% máu'
+    - '&c❤ &7và &b20% mana&7.'
+    - '&8(2s hồi chiêu)'
+    - ''
+    - '<#9F2B68>ᴇɴᴅᴇʀᴄᴏʀᴇ ʙᴏɴᴜꜱ: &7Tinh hoa'
+    - '&7cũng cung cấp <#9966cc>+10% ۞Sức mạnh'
+    - '<#9966cc>Ưu điểm &7và <#ADD8E6>+5 ☁Tốc độ'
+    tier: S
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR DEATH_BOOTS 1.0..|m MATERIAL ENDERCORE 1.0..
+          amount: 1
+
+INFERNO_HELMET:
+  base:
+    material: PLAYER_HEAD
+    name: <#fca414>Inferno Helmet
+    tier: S
+    disable-interaction: true
+    critical-strike-chance: 10.0
+    critical-strike-power: 20.0
+    defense: 30.0
+    max-health: 25.0
+    set: Inferno
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzYyZjU4ZDU1NWQ4NGUwMjEyZjhjZDE0YTQ2MTNmYjI2N2FlNzQ0MWQzZmNjYzcwZTk4YmU3NTE5ZTIzMTMxNiJ9fX0=
+      uuid: 49c9f9e4-55ee-4304-b133-2ffa77612fb3
+    lore:
+    - '&fｫ Chúa Lửa <#9F2B68>&l⟰ &8(Bộ đồ đầy đủ)'
+    - '&8+ &7Miễn nhiễm với &6lửa & lava&7.'
+    - '&8+ &7Phát ra bức xạ lửa mỗi'
+    - '&7khi bạn tấn công, làm cho kẻ địch'
+    - '&7bị&6 cháy &8(3s cooldown)'
+    - '&8+ &7Gây &6+50%&7 sát thương cho tất cả'
+    - '&7kẻ địch đang bị cháy.'
+    - ''
+    - '<#9F2B68>ᴇɴᴅᴇʀᴄᴏʀᴇ ʙᴏɴᴜꜱ: &8Nhấp chuột phải &7để'
+    - '&7đốt cháy tất cả mục tiêu xung quanh'
+    - '&7đang &6bị cháy&7, gây sát thương &c200❤&7 và'
+    - <#9F2B68>choáng&7 họ trong <#9F2B68>3s
+    sounds:
+      on-craft:
+        sound: BLOCK_SMITHING_TABLE_USE
+        volume: 1.0
+        pitch: 1.0
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR INFERNO_HELMET 1.0..|m MATERIAL ENDERCORE 1.0..
+          amount: 1
+INFERNO_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: <#fca414>Inferno Chestplate
+    tier: S
+    critical-strike-chance: 15.0
+    critical-strike-power: 45.0
+    set: Inferno
+    lore:
+    - '&fｫ Chúa Lửa <#9F2B68>&l⟰ &8(Bộ đồ đầy đủ)'
+    - '&8+ &7Miễn nhiễm với &6lửa & lava&7.'
+    - '&8+ &7Phát ra bức xạ lửa mỗi'
+    - '&7khi bạn tấn công, làm cho kẻ địch'
+    - '&7bị&6 cháy &8(3s cooldown)'
+    - '&8+ &7Gây &6+50%&7 sát thương cho tất cả'
+    - '&7kẻ địch đang bị cháy.'
+    - ''
+    - '<#9F2B68>ᴇɴᴅᴇʀᴄᴏʀᴇ ʙᴏɴᴜꜱ: &8Nhấp chuột phải &7để'
+    - '&7đốt cháy tất cả mục tiêu xung quanh'
+    - '&7đang &6bị cháy&7, gây sát thương &c200❤&7 và'
+    - <#9F2B68>choáng&7 họ trong <#9F2B68>3s
+    weapon-damage: 7.5
+    max-health: 25.0
+    defense: 70.0
+    hide-dye: true
+    dye-color: 183 65 14
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR INFERNO_CHESTPLATE 1.0..|m MATERIAL ENDERCORE 1.0..
+          amount: 1
+INFERNO_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: <#fca414>Inferno Leggings
+    tier: S
+    critical-strike-chance: 10.0
+    critical-strike-power: 25.0
+    set: Inferno
+    lore:
+    - '&fｫ Chúa Lửa <#9F2B68>&l⟰ &8(Bộ đồ đầy đủ)'
+    - '&8+ &7Miễn nhiễm với &6lửa & lava&7.'
+    - '&8+ &7Phát ra bức xạ lửa mỗi'
+    - '&7khi bạn tấn công, làm cho kẻ địch'
+    - '&7bị&6 cháy &8(3s cooldown)'
+    - '&8+ &7Gây &6+50%&7 sát thương cho tất cả'
+    - '&7kẻ địch đang bị cháy.'
+    - ''
+    - '<#9F2B68>ᴇɴᴅᴇʀᴄᴏʀᴇ ʙᴏɴᴜꜱ: &8Nhấp chuột phải &7để'
+    - '&7đốt cháy tất cả mục tiêu xung quanh'
+    - '&7đang &6bị cháy&7, gây sát thương &c200❤&7 và'
+    - <#9F2B68>choáng&7 họ trong <#9F2B68>3s
+    defense: 50.0
+    max-health: 25.0
+    hide-dye: true
+    dye-color: 183 65 14
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR INFERNO_LEGGINGS 1.0..|m MATERIAL ENDERCORE 1.0..
+          amount: 1
+INFERNO_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: <#fca414>Inferno Boots
+    tier: S
+    critical-strike-chance: 6.5
+    critical-strike-power: 15.0
+    set: Inferno
+    lore:
+    - '&fｫ Chúa Lửa <#9F2B68>&l⟰ &8(Bộ đồ đầy đủ)'
+    - '&8+ &7Miễn nhiễm với &6lửa & lava&7.'
+    - '&8+ &7Phát ra bức xạ lửa mỗi'
+    - '&7khi bạn tấn công, làm cho kẻ địch'
+    - '&7bị&6 cháy &8(3s cooldown)'
+    - '&8+ &7Gây &6+50%&7 sát thương cho tất cả'
+    - '&7kẻ địch đang bị cháy.'
+    - ''
+    - '<#9F2B68>ᴇɴᴅᴇʀᴄᴏʀᴇ ʙᴏɴᴜꜱ: &8Nhấp chuột phải &7để'
+    - '&7đốt cháy tất cả mục tiêu xung quanh'
+    - '&7đang &6bị cháy&7, gây sát thương &c200❤&7 và'
+    - <#9F2B68>choáng&7 họ trong <#9F2B68>3s
+    movement-speed: 0.03
+    defense: 30.0
+    max-health: 25.0
+    hide-dye: true
+    dye-color: 183 65 14
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR INFERNO_BOOTS 1.0..|m MATERIAL ENDERCORE 1.0..
+          amount: 1
+
+NIRVANA_HELMET:
+  base:
+    material: PLAYER_HEAD
+    name: <#fca414>Nirvana Helmet
+    tier: S
+    disable-interaction: true
+    critical-strike-chance: 7.5
+    critical-strike-power: 12.5
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWNhYWY2OTUzZTc5Y2UxYTE5MGQ5YjUzZDFlYWQ4OGExMTBmMjQxMTY5YmI1OThhMTdhMzhjNmQ5NzJlZmEyOSJ9fX0=
+      uuid: f14f97c3-926a-4b98-ac1c-946507593452
+    lore:
+    - '&fｭ Xua Đuổi <#9F2B68>&l⟰ &8(Bộ Đồ Đầy Đủ)'
+    - '&7Bị tấn công sẽ phát ra một'
+    - '&7vụ nổ thiêng liêng, đẩy kẻ địch'
+    - '&7xung quanh lùi lại.'
+    - '&8Thời Gian Hồi Cooldown: &310 giây'
+    - ''
+    - '<#9F2B68>ᴇɴᴅᴇʀᴄᴏʀᴇ ʙᴏɴᴜꜱ: &7Cũng <#9F2B68>choáng'
+    - '&7kẻ địch bị đẩy lùi trong <#9F2B68>2 giây'
+    - '&7và cấp <#ADD8E6>+150 ☁Tốc Độ'
+    set: Nirvana
+    defense: 20.0
+    max-health: 20.0
+    projectile-damage: 10.0
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOLLO_HELMET 1.0..|m MATERIAL ENDERCORE 1.0..
+          amount: 1
+NIRVANA_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: <#fca414>Nirvana Chestplate
+    tier: S
+    critical-strike-chance: 12.5
+    critical-strike-power: 25.0
+    lore:
+    - '&fｭ Xua Đuổi <#9F2B68>&l⟰ &8(Bộ Đồ Đầy Đủ)'
+    - '&7Bị tấn công sẽ phát ra một'
+    - '&7vụ nổ thiêng liêng, đẩy kẻ địch'
+    - '&7xung quanh lùi lại.'
+    - '&8Thời Gian Hồi Cooldown: &310 giây'
+    - ''
+    - '<#9F2B68>ᴇɴᴅᴇʀᴄᴏʀᴇ ʙᴏɴᴜꜱ: &7Cũng <#9F2B68>choáng'
+    - '&7kẻ địch bị đẩy lùi trong <#9F2B68>2 giây'
+    - '&7và cấp <#ADD8E6>+150 ☁Tốc Độ'
+    defense: 60.0
+    max-health: 30.0
+    projectile-damage: 12.5
+    unstackable: true
+    durability-bar: true
+    hide-dye: true
+    dye-color: 72 50 72
+    set: Nirvana
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOLLO_CHESTPLATE 1.0..|m MATERIAL ENDERCORE 1.0..
+          amount: 1
+NIRVANA_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: <#fca414>Nirvana Leggings
+    tier: S
+    critical-strike-chance: 10.0
+    critical-strike-power: 12.5
+    lore:
+    - '&fｭ Xua Đuổi <#9F2B68>&l⟰ &8(Bộ Đồ Đầy Đủ)'
+    - '&7Bị tấn công sẽ phát ra một'
+    - '&7vụ nổ thiêng liêng, đẩy kẻ địch'
+    - '&7xung quanh lùi lại.'
+    - '&8Thời Gian Hồi Cooldown: &310 giây'
+    - ''
+    - '<#9F2B68>ᴇɴᴅᴇʀᴄᴏʀᴇ ʙᴏɴᴜꜱ: &7Cũng <#9F2B68>choáng'
+    - '&7kẻ địch bị đẩy lùi trong <#9F2B68>2 giây'
+    - '&7và cấp <#ADD8E6>+150 ☁Tốc Độ'
+    defense: 45.0
+    max-health: 25.0
+    projectile-damage: 10
+    unstackable: true
+    durability-bar: true
+    hide-dye: true
+    dye-color: 231 210 124
+    set: Nirvana
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOLLO_LEGGINGS 1.0..|m MATERIAL ENDERCORE 1.0..
+          amount: 1
+NIRVANA_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: <#fca414>Nirvana Boots
+    tier: S
+    critical-strike-chance: 7.5
+    critical-strike-power: 7.5
+    lore:
+    - '&fｭ Xua Đuổi <#9F2B68>&l⟰ &8(Bộ Đồ Đầy Đủ)'
+    - '&7Bị tấn công sẽ phát ra một'
+    - '&7vụ nổ thiêng liêng, đẩy kẻ địch'
+    - '&7xung quanh lùi lại.'
+    - '&8Thời Gian Hồi Cooldown: &310 giây'
+    - ''
+    - '<#9F2B68>ᴇɴᴅᴇʀᴄᴏʀᴇ ʙᴏɴᴜꜱ: &7Cũng <#9F2B68>choáng'
+    - '&7kẻ địch bị đẩy lùi trong <#9F2B68>2 giây'
+    - '&7và cấp <#ADD8E6>+150 ☁Tốc Độ'
+    defense: 20.0
+    max-health: 15.0
+    projectile-damage: 7.5
+    unstackable: true
+    durability-bar: true
+    hide-dye: true
+    movement-speed: 0.04
+    dye-color: 72 50 72
+    set: Nirvana
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOLLO_BOOTS 1.0..|m MATERIAL ENDERCORE 1.0..
+          amount: 1
+
+OVERSEER_HELMET:
+  base:
+    material: PLAYER_HEAD
+    name: <#fca414>Overseer Helmet
+    tier: S
+    disable-interaction: true
+    critical-strike-chance: 10.0
+    critical-strike-power: 10.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjEzN2VkMjVmYmVhOGY5YTA0MTc2YTEyNzBkM2ZhMWZhMDE5MWJlNzIyOTdhYjZjNDk5NWMwNjMxYjU3N2YxMyJ9fX0=
+      uuid: 52270001-ed05-4261-9682-1129a4fbae8d
+    lore:
+    - '&fｪ Ơn Phước của Người Gác <#9F2B68>&l⟰ &8(Tập Đầy Đủ)'
+    - '&7Mỗi <#1a748c>20s&7, bạn phát ra một bức xạ'
+    - '&7có khả năng hồi phục bạn và những người gần'
+    - 'đó cho &c30❤&7.'
+    - ''
+    - '<#9F2B68>Bonus Endercore: &7Tấn công giờ đây'
+    - '&dloại bỏ &7tất cả các &cdebuff&7. &8(mỗi 10s)'
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR WARDEN_HELMET 1.0..|m MATERIAL ENDERCORE 1.0..
+          amount: 1
+    defense: 55.0
+    max-health: 35.0
+    damage-reduction: 2.0
+    unstackable: true
+    knockback-resistance: 0.15
+    set: Overseer
+OVERSEER_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: <#fca414>Overseer Chestplate
+    tier: S
+    critical-strike-chance: 12.5
+    critical-strike-power: 25.0
+    lore:
+    - '&fｪ Ơn Phước của Người Gác <#9F2B68>&l⟰ &8(Tập Đầy Đủ)'
+    - '&7Mỗi <#1a748c>20s&7, bạn phát ra một bức xạ'
+    - '&7có khả năng hồi phục bạn và những người gần'
+    - 'đó cho &c30❤&7.'
+    - ''
+    - '<#9F2B68>Bonus Endercore: &7Tấn công giờ đây'
+    - '&dloại bỏ &7tất cả các &cdebuff&7. &8(mỗi 10s)'
+    defense: 85.0
+    max-health: 50.0
+    damage-reduction: 2.5
+    unstackable: true
+    knockback-resistance: 0.2
+    hide-dye: true
+    dye-color: 0 128 128
+    set: Overseer
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR WARDEN_CHESTPLATE 1.0..|m MATERIAL ENDERCORE 1.0..
+          amount: 1
+OVERSEER_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: <#fca414>Overseer Leggings
+    tier: S
+    critical-strike-chance: 10.0
+    critical-strike-power: 15.0
+    lore:
+    - '&fｪ Ơn Phước của Người Gác <#9F2B68>&l⟰ &8(Tập Đầy Đủ)'
+    - '&7Mỗi <#1a748c>20s&7, bạn phát ra một bức xạ'
+    - '&7có khả năng hồi phục bạn và những người gần'
+    - 'đó cho &c30❤&7.'
+    - ''
+    - '<#9F2B68>Bonus Endercore: &7Tấn công giờ đây'
+    - '&dloại bỏ &7tất cả các &cdebuff&7. &8(mỗi 10s)'
+    defense: 70.0
+    max-health: 50.0
+    damage-reduction: 1.5
+    unstackable: true
+    knockback-resistance: 0.15
+    hide-dye: true
+    dye-color: 0 128 128
+    set: Overseer
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR WARDEN_LEGGINGS 1.0..|m MATERIAL ENDERCORE 1.0..
+          amount: 1
+OVERSEER_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: <#fca414>Overseer Boots
+    tier: S
+    critical-strike-chance: 7.5
+    critical-strike-power: 10.0
+    lore:
+    - '&fｪ Ơn Phước của Người Gác <#9F2B68>&l⟰ &8(Tập Đầy Đủ)'
+    - '&7Mỗi <#1a748c>20s&7, bạn phát ra một bức xạ'
+    - '&7có khả năng hồi phục bạn và những người gần'
+    - 'đó cho &c30❤&7.'
+    - ''
+    - '<#9F2B68>Bonus Endercore: &7Tấn công giờ đây'
+    - '&dloại bỏ &7tất cả các &cdebuff&7. &8(mỗi 10s)'
+    defense: 55.0
+    max-health: 35.0
+    damage-reduction: 1.5
+    unstackable: true
+    durability-bar: true
+    knockback-resistance: 0.15
+    hide-dye: true
+    dye-color: 0 128 128
+    movement-speed: 0.03
+    set: Overseer
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR WARDEN_BOOTS 1.0..|m MATERIAL ENDERCORE 1.0..
+          amount: 1
